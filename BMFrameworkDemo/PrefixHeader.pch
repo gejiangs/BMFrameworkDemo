@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  BMFrameworkDemo
+//
+//  Created by 郭江 on 2017/4/18.
+//  Copyright © 2017年 郭江. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
+
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
+
+#import "Masonry.h"
+#import "UIView+Utils.h"
+
+#define RGB(r, g, b)                        [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+
+#endif /* PrefixHeader_pch */
